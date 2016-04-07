@@ -1,0 +1,21 @@
+<root>
+  <widget id ="exit"            caption ="Выход"/>
+  <widget id ="hand"            caption ="Выдать"    icon="hand.gif"     tool_tip="Выдать ключ"   key_stroke="ADD"/>
+  <widget id ="handin"          caption ="Сдать"   icon="handin.gif"   tool_tip="Сдать ключ"    key_stroke="SUBTRACT"/>
+  <widget id ="handover"        caption ="Передать"  icon="handover.gif" tool_tip="Передать ключ" key_stroke=""/>
+
+  <widget id ="addKeyPermit"    caption ="Добавить право на ключ"  icon="addKeyPermit.gif" tool_tip="Добавить право на ключ"  key_stroke="ctrl RIGHT"/>
+  <widget id ="deleteKeyPermit" caption ="Удалить право на ключ"  icon="delete.gif"       tool_tip="Удалить право на ключ"  key_stroke="DELETE"/>
+  <widget id ="addKey"          caption ="Добавить ключ"  icon="add_obj.gif" tool_tip="Добавить ключ"  key_stroke="ADD"/>
+  <widget id ="deleteKey"       caption ="Удалить ключ"  icon="delete.gif"       tool_tip="Удалить ключ"  key_stroke="DELETE"/>
+  
+  <widget id ="config_view"     caption =""  icon="config_view.png"    tool_tip="Конфигурация"  key_stroke=""/>
+  <widget id ="log_view"        caption =""  icon="log_view.png"       tool_tip="История"       key_stroke=""/>
+  <widget id ="key_view"        caption =""  icon="key_view.png"       tool_tip="Ключи"         key_stroke=""/>
+
+  <widget id ="clear_log"        caption ="Очистить"  icon="clear_log.gif"     tool_tip="Очистить"       key_stroke=""/>
+  <widget id ="refresh_log"      caption ="Обновить"  icon="refresh_log.gif"       tool_tip="Обновить"       key_stroke=""/>
+  
+  <widget id ="refresh_keys"    caption ="Обновить"  icon="refresh_log.gif"       tool_tip="Обновить"       key_stroke=""/>
+  <widget id ="find"            caption ="Поиск"     icon="find_obj.gif"       tool_tip="Поиск"       key_stroke="ctrl F"/>
+</root>
